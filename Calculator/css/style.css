@@ -1,0 +1,59 @@
+body{
+    
+    background-color: #ffffff00;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;   
+}
+.container {
+    width: 300px;     
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button {
+    height: 65px;
+    outline: none;
+}
+input {
+
+    height : 90px;
+    outline: none;
+    width: 100%;
+    text-align: right;
+    border : 1px solid #454448;
+    background: #5B5B5D;
+    padding-right: 1rem;
+    font-size: 48px;
+    font-family:'BM JUA';
+    -webkit-app-region: drag;
+}
+
+
+button {
+    background: #828284;
+    border: 1px solid #454448;
+    font-size: 2rem;
+}
+button:nth-child(4n), button:last-child  {
+    background-color: orange;
+}
+
+.gray {
+    background: #707070;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.zero {
+    grid-column: 1/3;
+}
+
+.hidden {
+    display: none;
+}

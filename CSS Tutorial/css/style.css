@@ -1,0 +1,17 @@
+/* This is a single-line comment */
+
+p,h1{
+    color : tomato;
+    text-align: center;
+    
+}
+
+p,h1{
+    border-style: dotted;
+    border-color: darkviolet;
+}
+
+
+body{
+    background-color: wheat;
+}
