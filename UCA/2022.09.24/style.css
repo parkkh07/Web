@@ -1,0 +1,21 @@
+/* Language: css */
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  font-size: 500%;
+  color: white;
+}
